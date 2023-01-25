@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(143, 91, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+span {
+    color: #fff;
+}
