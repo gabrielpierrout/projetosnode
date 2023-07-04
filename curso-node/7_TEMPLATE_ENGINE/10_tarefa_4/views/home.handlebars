@@ -1,0 +1,17 @@
+<h1>Ótica</h1>
+{{#if approved}}
+    <p>Parabéns, seu cadastro foi aprovado, confira nossos produtos!</p>
+{{else }}
+    <p>O seu cadastro necessita de aprovação!</p>
+{{/if}}
+
+<h2>Confira os nossos produtos</h2>
+
+{{#each oculos}}
+    {{> oculos}}
+{{/each}}
+
+
+
+
+

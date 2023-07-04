@@ -1,0 +1,9 @@
+.card-produto {
+    display: inline-block;
+    width: 180px;
+    padding: 6px;
+}
+
+img {
+    width: 80px;
+}
