@@ -5,13 +5,13 @@ const sequelize = new Sequelize('nodesequelize', 'root', '', {
     dialect: 'mysql'
 })
 
-try {
+// try {
 
-    sequelize.authenticate()
-    console.log('Conectado com sucesso ao Sequelize!')
+//     sequelize.authenticate()
+//     console.log('Conectado com sucesso ao Sequelize!')
 
-} catch(err) {
-    console.log('Não foi possível conectar: ', error)
-}
+// } catch(err) {
+//     console.log('Não foi possível conectar: ', error)
+// }
 
 module.exports = sequelize
